@@ -1,0 +1,41 @@
+.navbar-container{
+  
+  margin-top: 20px;
+  display: flex;
+  font-family: "Garamond";
+}
+
+
+.navbar-left {
+ font-size: larger;
+ font-weight: bold;
+ margin-left: 15px;
+}
+.navbar-right{
+  
+  margin-left: auto;
+  margin-right: 50px;
+  display: flex;
+}
+.navbar-right div{
+  
+  font-weight: bold;
+  font-size: large;
+  margin-left: 10px;
+  margin-right: 10px;
+ 
+}
+
+a{
+text-decoration: none;
+color: black;
+
+
+
+}
+
+a:hover{
+  color: rgb(52, 132, 152);
+  text-decoration: underline 0.15em rgba(0, 0, 0, 1);
+  transition: 0.5s;
+}
